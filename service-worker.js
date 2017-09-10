@@ -1,6 +1,6 @@
 var dataCacheName = "first-pwa";
 var cacheName = "first-pwa";
-var filesToCache = [];
+var filesToCache = ["images/daily_drip_logo.png"];
 
 self.addEventListener("install", function(e) {
   console.log("[ServiceWorker] Install");
