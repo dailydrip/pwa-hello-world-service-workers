@@ -1,3 +1,7 @@
+var dataCacheName = "first-pwa";
+var cacheName = "first-pwa";
+var filesToCache = [];
+
 self.addEventListener("install", function(e) {
   console.log("[ServiceWorker] Install");
   e.waitUntil(
