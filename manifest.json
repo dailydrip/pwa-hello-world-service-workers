@@ -2,7 +2,7 @@
   "name": "Hello World PWA",
   "short_name": "Hello World",
   "icons": [],
-  "start_url": "/index.html",
+  "start_url": "/index.html?utm_source=homescreen",
   "display": "standalone",
   "background_color": "white",
   "theme_color": "blue"
